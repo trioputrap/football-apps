@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/menu_matches"
+            android:enabled="true"
+            android:title="Matches"
+            android:icon="@drawable/ic_match"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/menu_teams"
+            android:enabled="true"
+            android:title="Teams"
+            android:icon="@drawable/ic_team"
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/menu_favourites"
+            android:enabled="true"
+            android:title="Favorites"
+            android:icon="@drawable/ic_favorite"
+            app:showAsAction="ifRoom"/>
+</menu>
